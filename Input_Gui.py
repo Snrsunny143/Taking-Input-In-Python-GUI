@@ -18,7 +18,7 @@ def quit():
 button = Button(root, text =" PrintOut ", fg = " pink " ,bg = " green ")
 button.pack()
 
-quit_button =(root, text = " Quit ", fg = "grey", bg = " pink ")
+quit_button = Button(root, text = " Quit ", fg = "grey", bg = " pink ")
 quit_button.pack()
 
 root.mainloop()
