@@ -15,10 +15,10 @@ def quit():
     print(" Meet You Later. ")
     sys.exit()
 
-button = Button(root, text =" PrintOut ", fg = " pink " ,bg = " green ")
+button = Button(root, text =" PrintOut ", command=printout , fg = " pink " ,bg = " green ")
 button.pack()
 
-quit_button = Button(root, text = " Quit ", fg = "grey", bg = " pink ")
+quit_button = Button(root, text = " Quit ",command=quit , fg = "grey", bg = " pink ")
 quit_button.pack()
 
 root.mainloop()
